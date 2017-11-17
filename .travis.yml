@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - "6"
+  - "7"
+  - "8"
+
+cache:
+  directories:
+    - "node_modules"
+
+env:
+  global:
+  - RABBIT_URL=amqp://guest:guest@localhost:5672/?heartbeat=10
+
+services:
+  - rabbitmq

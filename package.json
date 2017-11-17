@@ -1,0 +1,31 @@
+{
+  "name": "rabbit-util",
+  "version": "0.1.0",
+  "description": "The utilities of rabbitmq, supply the feature of reconnecting.",
+  "main": "index.js",
+  "scripts": {
+    "bump_path": "npm version patch -m \"upgrade to %s\"",
+    "bump_minor": "npm version minor -m \"upgrade to %s\"",
+    "test": "mocha --recursive --timeout 999999 test/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/e174596549/rabbit-util.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "reconnect"
+  ],
+  "author": "yunnysunny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e174596549/rabbit-util/issues"
+  },
+  "homepage": "https://github.com/e174596549/rabbit-util#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
