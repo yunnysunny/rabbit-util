@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/e174596549/rabbit-util#readme",
   "dependencies": {
-    "amqplib": "^0.5.2"
+    "amqplib": "^0.7.1"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
